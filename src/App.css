@@ -185,6 +185,11 @@ h2 {
 .navbar--active-content {
   color: var(--primary);
 }
+
+.brand-logo{
+  height: 50px;
+  width: 130px;
+}
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
@@ -257,7 +262,7 @@ h2 {
   justify-content: center;
   align-items: flex-start;
   gap: 42.6px;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 }
 .skills--section--card {
   display: flex;
