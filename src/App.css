@@ -333,7 +333,7 @@ h2 {
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 80px;
+  gap: 50px;
 }
 .portfolio--container-box {
   display: flex;
