@@ -19,27 +19,27 @@
       "description": "Proficient in developing cross-platform mobile applications using Flutter, I specialize in creating efficient, responsive, and visually appealing mobile interfaces that deliver seamless user experiences." 
     }
   ],
-  "portfolio": [
+  "webportfolio": [
     {
       "id": "1",
       "src": "./img/placeholder-image.png",
-      "title": "Ahuse",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Quizzical App",
+      "description": "A Web Application that uses API allows you to request trivia questions for quizzes and display them according to user choice of difficulty and then displays the results based on accuracy of answers",
+      "link": "https://github.com/arshan-alee/Quizzical-App"
     },
     {
       "id": "2",
       "src": "./img/placeholder-image-1.png",
-      "title": "App Dashboard",
+      "title": "Segula Vacations",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "link": "https://github.com/arshan-alee/Segula-Vacations"
     },
     {
       "id": "3",
       "src": "./img/placeholder-image-2.png",
-      "title": "Easy Rentn",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
-      "link": "View In Github"
+      "title": "Barberah",
+      "description": "An open source Project which helps in identifying the best barbers in your area through rating provided by the customers helping users save time by the help of appointment Management",
+      "link": "https://kind-gray-bluefish-tie.cyclic.app/"
     }
   ],
   "testimonial": [

@@ -368,7 +368,7 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 32px;
+  gap: 25px;
   flex: 1 0 0;
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
@@ -383,9 +383,15 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   align-self: stretch;
+  height: 100px;
 }
 .portfolio--section--title {
   color: var(--heading-color);
+}
+
+.portfolio--section--link{
+  
+  padding: 32px;
 }
 .portfolio--link {
   text-decoration: none;

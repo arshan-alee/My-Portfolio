@@ -29,9 +29,9 @@ export default function MyPortfolio() {
         </div>
       </div>
       <h2 className="section--heading">Web Applications</h2>
-      <PortfolioContainer portfolioData={data?.portfolio} />
+      <PortfolioContainer portfolioData={data?.webportfolio} />
       <h2 className="section--heading">Mobile Applications</h2>
-      <PortfolioContainer portfolioData={data?.portfolio} />
+      <PortfolioContainer portfolioData={data?.webportfolio} />
     </section>
   );
 }
