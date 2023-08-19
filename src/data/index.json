@@ -4,19 +4,19 @@
       "id": "1",
       "src": "./img/product-chain-1.png",
       "title": "Front-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "I possess strong proficiency in building dynamic user interfaces using React.js, along with a solid grasp of modern web technologies such as Tailwind CSS, HTML, CSS, JavaScript and JQuery. "
     },
     {
       "id": "2",
       "src": "./img/tag-1.png",
       "title": "Back-End",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "My backend skills include leveraging Firebase and Appwrite to architect and deploy robust, scalable backend solutions. I'm adept at integrating authentication, real-time databases, and cloud functions for efficient and secure application operations."
     },
     {
       "id": "3",
       "src": "./img/mobile app dev.png",
       "title": "Mobile App Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique"
+      "description": "Proficient in developing cross-platform mobile applications using Flutter, I specialize in creating efficient, responsive, and visually appealing mobile interfaces that deliver seamless user experiences." 
     }
   ],
   "portfolio": [

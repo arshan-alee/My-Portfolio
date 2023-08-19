@@ -217,6 +217,9 @@ h2 {
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
+.hero--section-cv-link{
+  margin-top: 21.333px;
+}
 .hero--section--title {
   color: var(--heading-color);
   font-size: 74.667px;
@@ -388,8 +391,9 @@ h2 {
   text-decoration: none;
   display: flex;
   gap: 16px;
-  border-bottom: 1.33px solid var(--primary);
-  padding-bottom: 10.6px;
+  color: rgb(105, 105, 105);
+  border-bottom: 1.33px solid black;
+  padding-bottom: 5.6px;
   font-weight: 600;
 }
 .portfolio--section--card:hover path {
