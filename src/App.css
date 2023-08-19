@@ -276,7 +276,7 @@ h2 {
   flex: 1 0 0;
   border-radius: 10.6px;
   background: var(--bg-shade);
-  min-height: 250px;
+  height: 330px;
 }
 .skills--section--card:hover {
   border-bottom: 4px solid var(--primary);
