@@ -363,6 +363,8 @@ h2 {
 }
 .portfolio--section--img > img {
   width: 100%;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 .portfolio--section--card {
   display: flex;
@@ -373,8 +375,7 @@ h2 {
   background: #fff;
   box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.15);
   cursor: pointer;
-  border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
+  border-radius: 12px;
 }
 .portfolio--section--card--content {
   display: flex;
