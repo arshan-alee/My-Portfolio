@@ -186,7 +186,7 @@ h2 {
   color: var(--primary);
 }
 
-.brand-logo{
+.brand-logo {
   height: 50px;
   width: 130px;
 }
@@ -196,7 +196,7 @@ h2 {
 .hero--section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  padding: 133.333px 85.333px 133.333px;
+  padding: 133.333px 85.333px;
   align-items: center;
   justify-content: space-between;
   gap: 32px;
@@ -217,7 +217,7 @@ h2 {
 .hero--section--content--box > button {
   margin-top: 21.333px;
 }
-.hero--section-cv-link{
+.hero--section-cv-link {
   margin-top: 21.333px;
 }
 .hero--section--title {
@@ -248,7 +248,7 @@ h2 {
 /* Skills Section Style */
 .skills--section {
   display: flex;
-  padding: 149.33px 85.33px;
+  padding: 120px 85.33px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
@@ -336,7 +336,7 @@ h2 {
   padding: 112px 85px;
   flex-direction: column;
   align-items: flex-start;
-  gap: 50px;
+  gap: 70px;
 }
 .portfolio--container-box {
   display: flex;
@@ -390,8 +390,7 @@ h2 {
   color: var(--heading-color);
 }
 
-.portfolio--section--link{
-  
+.portfolio--section--link {
   padding: 32px;
 }
 .portfolio--link {
@@ -617,18 +616,11 @@ input[type="checkbox"] {
   .btn-outline-primary {
     display: none;
   }
-  .hero--section {
-    display: flex;
-    flex-direction: column-reverse;
-    padding-bottom: 70px;
-  }
-  .hero--section--title,
-  .hero--section-description,
+  
   .footer--content {
     text-align: center;
   }
   .skills--section--container,
-  .about--section,
   .portfolio--section--container,
   .portfolio--container-box,
   .footer--link--container,
@@ -638,9 +630,7 @@ input[type="checkbox"] {
     flex-direction: column;
   }
   .skills--section,
-  .portfolio--container,
-  .hero--section--content,
-  .hero--section--content--box {
+  .portfolio--container {
     align-items: center;
   }
   .portfolio--container-box {
@@ -651,13 +641,7 @@ input[type="checkbox"] {
   .contact--section,
   .footer--container {
     gap: 20px;
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-  .about--section {
-    gap: 20px;
-    padding-top: 0;
-    padding-bottom: 0;
+    padding: 70px 50px;
   }
   .testimonial--section--card {
     padding: 25px;
@@ -711,7 +695,10 @@ input[type="checkbox"] {
   transition: all ease-in-out 0.2s;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1000px) {
+  .navbar{
+    justify-content: center;
+  }
   .nav__hamburger {
     display: flex;
     z-index: 200;
@@ -763,17 +750,75 @@ input[type="checkbox"] {
 }
 
 @media screen and (max-width: 1000px) {
+  .hero--section {
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 70px;
+  }
+  
+  .hero--section--title,
+  .hero--section-description{
+    text-align: center;
+  }
   .hero--section-description {
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
   }
+  .hero--section--content{
+    align-items: center;
+  }
   .hero--section--content--box {
     text-align: center;
+    align-items: center;
   }
-.hero--section--content--box > button {
-  margin: 22px 0px;
+  .hero--section--content--box > button {
+    margin: 22px 0px;
+  }
+  .about--section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .portfolio--section{
+    padding: 100px 70px;
+    gap: 60px;
+  }
+  .portfolio--section--card--content {
+    height: auto;
+  }
 }
+
+@media only screen and (min-width: 1000px) and(max-width: 1200px) {
+  .about--section {
+    display: grid;
+    padding: 133.3px 85.3px;
+    align-items: center;
+    gap: 70px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hero--section{
+    padding: 120px 50px;
+  }
+  .about--section {
+    padding: 0px 50px;
+  }
+  .portfolio--section{
+    padding: 70px 50px;
+    gap: 40px;
+  }
+  .portfolio--section--card{
+    gap:0px;
+  }
+  .portfolio--section--card--content {
+    padding: 28px;
+    height: auto;
+  }
 }
 /* Responsive Screens */
 
