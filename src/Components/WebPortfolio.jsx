@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function PortfolioContainer(props) {
+export default function WebPortfolio(props) {
   return (
     <div className="portfolio--section--container">
       {props.portfolioData?.map((item, index) => (

@@ -1,5 +1,6 @@
+import MobilePortfolio from "../../Components/MobilePortfolio";
+import WebPortfolio from "../../Components/WebPortfolio";
 import data from "../../data/index.json";
-import PortfolioContainer from "../../Components/PortfolioContainer";
 export default function MyPortfolio() {
   return (
     <section className="portfolio--section" id="MyPortfolio">
@@ -29,9 +30,9 @@ export default function MyPortfolio() {
         </div>
       </div>
       <h2 className="section--heading">Web Applications</h2>
-      <PortfolioContainer portfolioData={data?.webportfolio} />
+      <WebPortfolio portfolioData={data?.webportfolio} />
       <h2 className="section--heading">Mobile Applications</h2>
-      <PortfolioContainer portfolioData={data?.webportfolio} />
+      <WebPortfolio portfolioData={data?.webportfolio} />
     </section>
   );
 }

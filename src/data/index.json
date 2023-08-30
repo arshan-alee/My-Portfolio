@@ -41,6 +41,28 @@
       "description": "An open source Project which helps in identifying the best barbers in your area through rating provided by the customers helping users save time by the help of appointment Management",
       "link": "https://kind-gray-bluefish-tie.cyclic.app/"
     }
+  ],"mobileportfolio": [
+    {
+      "id": "1",
+      "src": ["./img/mobile app images/1. splash screen.jpg","./img/mobile app images/2. onbaording pg1.png","./img/mobile app images/3. onboarding pg2.png","./img/mobile app images/3. onboarding pg2.png"],
+      "title": "Quizzical App",
+      "description": "A Web Application that uses API allows you to request trivia questions for quizzes and display them according to user choice of difficulty and then displays the results based on accuracy of answers",
+      "link": "https://github.com/arshan-alee/Quizzical-App"
+    },
+    {
+      "id": "2",
+      "src": ["./img/mobile app images/1. splash screen.jpg","./img/mobile app images/2. onbaording pg1.png","./img/mobile app images/3. onboarding pg2.png","./img/mobile app images/3. onboarding pg2.png"],
+      "title": "Segula Vacations",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
+      "link": "https://github.com/arshan-alee/Segula-Vacations"
+    },
+    {
+      "id": "3",
+      "src": ["./img/mobile app images/1. splash screen.jpg","./img/mobile app images/2. onbaording pg1.png","./img/mobile app images/3. onboarding pg2.png","./img/mobile app images/3. onboarding pg2.png"],
+      "title": "Barberah",
+      "description": "An open source Project which helps in identifying the best barbers in your area through rating provided by the customers helping users save time by the help of appointment Management",
+      "link": "https://kind-gray-bluefish-tie.cyclic.app/"
+    }
   ],
   "testimonial": [
     {
