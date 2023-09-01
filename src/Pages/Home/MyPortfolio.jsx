@@ -32,7 +32,7 @@ export default function MyPortfolio() {
       <h2 className="section--heading">Web Applications</h2>
       <WebPortfolio portfolioData={data?.webportfolio} />
       <h2 className="section--heading">Mobile Applications</h2>
-      <WebPortfolio portfolioData={data?.webportfolio} />
+      <MobilePortfolio portfolioData={data?.mobileportfolio} />
     </section>
   );
 }
