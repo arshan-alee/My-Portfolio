@@ -406,59 +406,29 @@ h2 {
 .portfolio--section--card:hover path {
   stroke: #006b6a;
 }
-.portfolio--section--slider {
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.swiper--container {
+  max-width: 18rem;
+  padding: 12px;
+  margin: 0 auto;
 }
 
 .portfolio--section--mobile--image {
   width: 140px;
   height: 280px;
-  border-radius: 8px;
-  margin-top: 10px;
-}
-.arrow {
-  transform: translateY(-50%);
-  transition: color 0.3s ease;
-}
-.right-arrow {
-  position: absolute;
-  top: 50%;
-  right: -90px;
-  font-size: 3rem;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
+  border-radius: 10px;
 }
 
-.left-arrow {
-  position: absolute;
-  top: 50%;
-  left: -90px;
-  font-size: 3rem;
-  color: #000;
-  z-index: 10;
-  cursor: pointer;
-  user-select: none;
+.swiper-slide {
+  width: auto  !important;
 }
 
-.arrow :hover {
-  color: #3597ff; /* Change the color on hover */
-}
-.slide {
-  opacity: 0;
-  transition-duration: 1s ease;
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+  display: none !important;
 }
 
-.slide.active {
-  opacity: 1;
-  transition-duration: 1s;
-  transform: scale(1.08);
-}
-/* Portfolio Ends */
+
 
 /* Testimonial */
 .testimonial--section {
