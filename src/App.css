@@ -609,6 +609,7 @@ input[type="checkbox"] {
     font-size: 28px;
     line-height: 40px;
   }
+  
 }
 
 @media only screen and (max-width: 1600px) {
@@ -694,6 +695,10 @@ input[type="checkbox"] {
   .divider {
     margin: 20px;
   }
+  .swiper--container {
+    max-width: 50rem;
+    padding: 16px 12px;
+  }
 }
 
 /* Hamburger menu  */
@@ -718,7 +723,7 @@ input[type="checkbox"] {
   transition: all ease-in-out 0.2s;
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .navbar{
     justify-content: center;
   }
@@ -770,9 +775,12 @@ input[type="checkbox"] {
   .nav__hamburger.active :nth-child(3) {
     transform: rotate(-45deg) translate(0.45rem, -0.1875rem);
   }
+  .swiper--container {
+    max-width: 49rem;
+  }
 }
 
-@media screen and (max-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .hero--section {
     display: flex;
     flex-direction: column-reverse;
@@ -812,6 +820,7 @@ input[type="checkbox"] {
   .portfolio--section--card--content {
     height: auto;
   }
+  
 }
 
 @media only screen and (min-width: 1000px) and(max-width: 1200px) {
@@ -822,6 +831,70 @@ input[type="checkbox"] {
     gap: 70px;
     grid-template-columns: repeat(2, 1fr);
   }
+  
+}
+
+@media only screen and (max-width: 950px){
+  .swiper--container {
+    max-width: 46rem;
+  }
+  
+}
+
+@media only screen and (max-width: 900px){
+  .swiper--container {
+    max-width: 43rem;
+  }
+  
+}
+
+@media only screen and (max-width: 850px){
+  .swiper--container {
+    max-width: 40rem;
+  }
+  
+}
+
+@media only screen and (max-width: 800px){
+  .swiper--container {
+    max-width: 37rem;
+  }
+  
+}
+
+@media only screen and (max-width: 750px){
+  .swiper--container {
+    max-width: 34rem;
+  }
+  
+}
+
+@media only screen and (max-width: 700px){
+  .swiper--container {
+    max-width: 31rem;
+  }
+  
+}
+
+@media only screen and (max-width: 650px){
+  .swiper--container {
+    max-width: 28rem;
+  }
+  
+}
+
+@media only screen and (max-width: 600px){
+  .swiper--container {
+    max-width: 25rem;
+  }
+  
+}
+
+@media only screen and (max-width: 550px){
+  .swiper--container {
+    max-width: 22rem;
+  }
+  
 }
 
 @media screen and (max-width: 500px) {
@@ -842,6 +915,23 @@ input[type="checkbox"] {
     padding: 28px;
     height: auto;
   }
+  .swiper--container {
+    max-width: 20rem;
+  }
+}
+
+@media only screen and (max-width: 450px){
+  .swiper--container {
+    max-width: 17rem;
+  }
+  
+}
+
+@media only screen and (max-width: 400px){
+  .swiper--container {
+    max-width: 16rem;
+  }
+  
 }
 /* Responsive Screens */
 
