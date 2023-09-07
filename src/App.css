@@ -155,7 +155,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 85.333px;
+  padding: 10px 85.333px;
   background: var(--white);
   box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.1);
   position: fixed;
@@ -189,7 +189,7 @@ h2 {
 
 .brand-logo {
   height: 50px;
-  width: 130px;
+  width: 160px;
 }
 /* Navbar Styler Ends */
 
