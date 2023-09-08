@@ -46,10 +46,6 @@
     {
       "id": "1",
       "src": [
-        "./img/mobile app images/1. splash screen.jpg",
-        "./img/mobile app images/2. onbaording pg1.png",
-        "./img/mobile app images/3. onboarding pg2.png",
-        "./img/mobile app images/4. onboarding pg3.png",
         "./img/mobile app images/5.onboarding pg4.png",
         "./img/mobile app images/6. homepage.png",
         "./img/mobile app images/7. worker sign in.png",
@@ -70,7 +66,11 @@
         "./img/mobile app images/22. Payment.png",
         "./img/mobile app images/23. your orders.png",
         "./img/mobile app images/24. post job.png",
-        "./img/mobile app images/25. job posted success.jpg"
+        "./img/mobile app images/25. job posted success.jpg",
+        "./img/mobile app images/1. splash screen.jpg",
+        "./img/mobile app images/2. onbaording pg1.png",
+        "./img/mobile app images/3. onboarding pg2.png",
+        "./img/mobile app images/4. onboarding pg3.png"
       ],
       "homepageindex": "5",
       "title": "Madadgar-Hath App",
@@ -107,7 +107,7 @@
         "./img/mobile app images/25. job posted success.jpg"
       ],
       "homepageindex": "5",
-      "title": "Segula Vacations",
+      "title": "Netflix Mobile Clone",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspenmdisse varius eim in eros elementum tristique",
       "link": "https://github.com/arshan-alee/Segula-Vacations"
     },
