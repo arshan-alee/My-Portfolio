@@ -472,6 +472,11 @@ h2 {
   font-weight: 400;
   line-height: 150%;
 }
+
+.testimonial--image{
+width: 75px;
+height: 75px;
+}
 /* Testimonial Ends */
 .contact--section {
   display: flex;
