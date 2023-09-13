@@ -477,6 +477,10 @@ h2 {
 width: 75px;
 height: 75px;
 }
+
+.testimonial--description{
+  font-style: italic;
+}
 /* Testimonial Ends */
 .contact--section {
   display: flex;
