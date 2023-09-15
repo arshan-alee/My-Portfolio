@@ -103,8 +103,8 @@
         "./img/mobile app images/social wise/6. feed.jpg"
       ],
       "homepageindex": "5",
-      "title": "Netflix Mobile Clone",
-      "description": "A Netflix-like app made with Flutter, that fetches data from TMDB API, and storing it in Firestore database.",
+      "title": "Social Wise",
+      "description": "A Flutter Application for business and brands with features like zoom drawer and Google Authentication",
       "link": "https://github.com/arshan-alee/Social-Wise"
     }
   ],
