@@ -92,6 +92,20 @@
       "title": "Netflix Mobile Clone",
       "description": "A Netflix-like app made with Flutter, that fetches data from TMDB API, and storing it in Firestore database.",
       "link": "https://github.com/arshan-alee/Netflix-Clone-Mobile-App"
+    },{
+      "id": "3",
+      "src": [
+        "./img/mobile app images/social wise/1. splash screen.jpg",
+        "./img/mobile app images/social wise/2. prelogin.jpg",
+        "./img/mobile app images/social wise/3. what's new.jpg",
+        "./img/mobile app images/social wise/4. zoom drawer.jpg",
+        "./img/mobile app images/social wise/5. notifications.jpg",
+        "./img/mobile app images/social wise/6. feed.jpg"
+      ],
+      "homepageindex": "5",
+      "title": "Netflix Mobile Clone",
+      "description": "A Netflix-like app made with Flutter, that fetches data from TMDB API, and storing it in Firestore database.",
+      "link": "https://github.com/arshan-alee/Netflix-Clone-Mobile-App"
     }
   ],
   "testimonial": [
