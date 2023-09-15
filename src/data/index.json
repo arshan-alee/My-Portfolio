@@ -90,7 +90,7 @@
       ],
       "homepageindex": "5",
       "title": "Netflix Mobile Clone",
-      "description": "A Netflix-like app made with Flutter, that fetches data from TMDB, and storing it in Firestore database.",
+      "description": "A Netflix-like app made with Flutter, that fetches data from TMDB API, and storing it in Firestore database.",
       "link": "https://github.com/arshan-alee/Netflix-Clone-Mobile-App"
     }
   ],
